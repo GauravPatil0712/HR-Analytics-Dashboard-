@@ -10,4 +10,11 @@ Our goal is to allow users to filter data by department, date, or other categori
 ## Dataset:
 This dataset is taken from Kaggle.
 
+## Dashboard:
+1. Power Bi:
+
+
+2. Tableau:
+
+
 
