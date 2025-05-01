@@ -1,4 +1,4 @@
-# HR-Analytics-Dashboard-
+# HR-Analytics-Dashboard
 ##Objectives:
 1. Design an interactive dashboard using Power BI
 We aim to build a user-friendly dashboard in Power BI that can generate real-time reports in under 5 seconds, helping HR managers make quicker decisions.
