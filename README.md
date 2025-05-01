@@ -15,4 +15,4 @@ This dataset is taken from Kaggle.
 <a herf="https://github.com/GauravPatil0712/HR-Analytics Dashboard-/blob/main/Power%20bi.PNG">Powerbi</a>
 
 2. Tableau:
-<b href="https://github.com/GauravPatil0712/HR-Analytics-Dashboard-/blob/main/Tableau.PNG">Tableau</b>
+<a href="https://github.com/GauravPatil0712/HR-Analytics-Dashboard-/blob/main/Tableau.PNG">Tableau</a>
