@@ -12,7 +12,7 @@ This dataset is taken from Kaggle.
 
 ## Dashboard:
 1. Power Bi:
-- <a1 herf="https://github.com/GauravPatil0712/HR-Analytics-Dashboard-/blob/main/Power%20bi.PNG">Powerbi</a1>
+- <a1 herf="https://github.com/GauravPatil0712/HR-Analytics-Dashboard-/blob/main/Power%20bi.PNG">Powerbi/a1>
 
 2. Tableau:
 - <a href="https://github.com/GauravPatil0712/HR-Analytics-Dashboard-/blob/main/Tableau.PNG">Tableau</a>
