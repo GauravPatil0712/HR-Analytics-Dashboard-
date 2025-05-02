@@ -91,6 +91,5 @@
   * Implement row-level security for sensitive HR access.
 
 ### 7. References
-1. Gartner (2023). *Magic Quadrant for Analytics Platforms*.
-2. Microsoft Documentation. *Power BI DAX Guide*.
-3. Tableau Help Center. *Working with Calculated Fields*.
+1. YouTube
+2. DataCamp 
