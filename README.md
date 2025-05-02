@@ -7,8 +7,6 @@
 - Bari Vinit Sunil (Roll No. 24, PRN: 231107020)  
 **Guide:** Prof. S. P. Salunke  
 
----
-
 ## Weekly Progress Log  
 
 ### 1. Introduction (24/02/2025 – 08/03/2025)  
@@ -18,9 +16,9 @@
   1. Power BI dashboard (report generation <5 secs).  
   2. Tableau parallel dashboard for comparison.  
   3. Dynamic filters by department/date.  
-- **Dataset:** `Employee.csv` (fields: ID, Name, Department, Salary, Performance).  
+- **Dataset:**
+  <a href="https://github.com/GauravPatil0712/HR-Analytics-Dashboard-/blob/main/HR_Analytics.csv">HR Dataset</a>
 
----
 
 ### 2. Literature Survey (10/03/2025 – 22/03/2025)  
 - **Comparative Analysis:**  
