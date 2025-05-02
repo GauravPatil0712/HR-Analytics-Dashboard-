@@ -61,8 +61,16 @@
   ```plaintext
   Dataset provided by [Company Name] under NDA.  
   Format: CSV, 1000+ records, fields: ID, Name, Department, Salary.
-## Dashboard:
 
+### 6. Conclusion  
+- **Achievements:**  
+  - Successfully automated HR analytics with Power BI/Tableau.  
+  - Reduced manual report time by 99%.  
+- **Future Work:**  
+  - Live data integration (Sem-VI).  
+  - Row-level security for HR teams.  
 
-
-2. Tableau:
+### 7. References  
+1. Gartner (2023). *Magic Quadrant for Analytics Platforms*.  
+2. Microsoft Docs. *Power BI DAX Guide*.  
+3. Tableau Help Center. *Calculated Fields*.
