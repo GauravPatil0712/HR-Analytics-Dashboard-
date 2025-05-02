@@ -1,76 +1,96 @@
-# Log Book - Semester Project-II (Sem-IV, 2024-25)  
-**Project Title:** HR Analytics Dashboard using Power BI and Tableau  
-**Team:**  
-- Patil Gaurav Manohar (Roll No. 7, PRN: 231107005)  
-- Patil Nikhil Manoj (Roll No. 11, PRN: 231107009)  
-- Mahajan Himanshu Sudhir (Roll No. 12, PRN: 231107010)  
-- Bari Vinit Sunil (Roll No. 24, PRN: 231107020)  
-**Guide:** Prof. S. P. Salunke  
+# Log Book – Semester Project-II (Sem-IV, 2024-25)
 
-## Weekly Progress Log  
+**Project Title:** HR Analytics Dashboard using Power BI and Tableau
+**Team Members:**
 
-### 1. Introduction (24/02/2025 – 08/03/2025)  
-- **Problem Statement:**  
-  Manual employee data analysis causes inefficiencies; need for real-time dashboards.  
-- **Objectives:**  
-  1. Power BI dashboard (report generation <5 secs).  
-  2. Tableau parallel dashboard for comparison.  
-  3. Dynamic filters by department/date.  
-- **Dataset:**
-  <a href="https://github.com/GauravPatil0712/HR-Analytics-Dashboard-/blob/main/HR_Analytics.csv">HR Dataset</a>
+* Patil Gaurav Manohar (Roll No. 7, PRN: 231107005)
+* Patil Nikhil Manoj (Roll No. 11, PRN: 231107009)
+* Mahajan Himanshu Sudhir (Roll No. 12, PRN: 231107010)
+* Bari Vinit Sunil (Roll No. 24, PRN: 231107020)
+  **Project Guide:** Prof. S. P. Salunke
 
+## Weekly Progress Log
 
-### 2. Literature Survey (10/03/2025 – 22/03/2025)  
-- **Comparative Analysis:**  
-  | Tool    | Strengths                          | Limitations               |  
-  |---------|-----------------------------------|---------------------------|  
-  | Power BI| DAX formulas, Windows integration | Limited macOS support     |  
-  | Tableau | Advanced visuals                  | High licensing cost       |  
+### 1. Introduction *(24 Feb – 08 Mar 2025)*
+
+* **Problem Statement:**
+  HR teams often spend too much time manually analyzing employee data, which slows down decision-making. We aim to solve this with real-time dashboards that present key metrics at a glance.
+
+* **Project Objectives:**
+
+  1. Build a Power BI dashboard that generates reports in under 5 seconds.
+  2. Create a comparable dashboard using Tableau.
+
+* **Dataset Used:**
+  [HR Analytics CSV Dataset](https://github.com/GauravPatil0712/HR-Analytics-Dashboard-/blob/main/HR_Analytics.csv)
 
 
-### 3. Methodology (24/03/2025 – 05/04/2025)  
-- **Tools:** Power BI Desktop, Tableau Public, Excel.  
+### 2. Literature Survey *(10 Mar – 22 Mar 2025)*
 
-### 4. Implementation Details (07/04/2025 – 26/04/2025)  
+* **What We Explored:**
+  We compared Power BI and Tableau to understand their strengths and limitations.
 
-#### **Module 1: Power BI Dashboard**  
-- **Description:**  
-  - Created employee overview with KPI cards (Avg Salary, Attrition Rate).  
-  - Implemented DAX measures and department slicers.  
-- **Testing:**  
-  - Validated data accuracy using Excel cross-checks.  
-  - Optimized report load time (<5 secs).  
-- **Snapshot:**  
-<a href="https://github.com/GauravPatil0712/HR-Analytics-Dashboard-/blob/main/Power%20bi.PNG">PowerBi</a>
+| Tool     | Strengths                                         | Limitations           |
+| -------- | ------------------------------------------------- | --------------------- |
+| Power BI | Great with DAX formulas, easy Windows integration | Limited macOS support |
+| Tableau  | Excellent for advanced visualizations             | High licensing costs  |
 
-#### **Module 2: Tableau Attrition Analysis**  
-- **Description:**  
-  - Built calculated fields for attrition status (`IF [Status] = "Left" THEN 1 ELSE 0`).  
-  - Designed dual-axis charts for department-wise trends.  
-- **Testing:**  
-  - Verified filters with dummy data.  
-  - Checked mobile responsiveness.  
-- **Snapshot:**  
-<a href="https://github.com/GauravPatil0712/HR-Analytics-Dashboard-/blob/main/Tableau.PNG">Tableau</a>
 
-### 5. Results (28/04/2025 – 03/05/2025)  
+### 3. Methodology *(24 Mar – 05 Apr 2025)*
 
-#### **Dataset Used**  
-- Source: `Employee.csv` (internal HR data, anonymized). 
-- Citation:  
-  ```plaintext
-  Dataset provided by [Company Name] under NDA.  
-  Format: CSV, 1000+ records, fields: ID, Name, Department, Salary.
+* **Tools Used:**
+  Power BI Desktop, Tableau Public, Microsoft Excel.
+  We cleaned the dataset in Excel and imported it into both platforms to design our visual dashboards.
 
-### 6. Conclusion  
-- **Achievements:**  
-  - Successfully automated HR analytics with Power BI/Tableau.  
-  - Reduced manual report time by 99%.  
-- **Future Work:**  
-  - Live data integration (Sem-VI).  
-  - Row-level security for HR teams.  
 
-### 7. References  
-1. Gartner (2023). *Magic Quadrant for Analytics Platforms*.  
-2. Microsoft Docs. *Power BI DAX Guide*.  
-3. Tableau Help Center. *Calculated Fields*.
+### 4. Implementation *(07 Apr – 26 Apr 2025)*
+
+#### Module 1: Power BI Dashboard
+
+* **What We Built:**
+
+  * A comprehensive employee overview featuring KPI cards (e.g., average salary, attrition rate).
+  * Interactive slicers to filter data by department.
+  * DAX formulas for custom metrics.
+
+* **Testing:**
+  * Cross-verified data accuracy in Excel.
+  * Ensured report load time stayed under 5 seconds.
+
+* **Preview:**
+  ![Power BI Snapshot](https://github.com/GauravPatil0712/HR-Analytics-Dashboard-/blob/main/Power%20bi.PNG)
+
+#### Module 2: Tableau Attrition Analysis
+
+* **What We Built:**
+  * Custom calculated fields to detect attrition status.
+  * Dual-axis charts for visualizing department-wise trends.
+
+* **Testing:**
+  * Verified filter functionality using sample data.
+  * Ensured mobile and tablet compatibility.
+
+* **Preview:**
+  ![Tableau Snapshot](https://github.com/GauravPatil0712/HR-Analytics-Dashboard-/blob/main/Tableau.PNG)
+
+
+### 5. Results *(28 Apr – 03 May 2025)*
+
+* **Dataset Details:**
+  * Source: Internal anonymized HR data (`Employee.csv`).
+  * Format: CSV with 1000+ records containing fields like ID, Name, Department, and Salary.
+
+### 6. Conclusion
+
+* **What We Achieved:**
+  * Successfully automated HR analytics using two leading BI tools.
+  * Reduced manual report preparation time by approximately 99%.
+
+* **Next Steps:**
+  * Add real-time data integration in Semester VI.
+  * Implement row-level security for sensitive HR access.
+
+### 7. References
+1. Gartner (2023). *Magic Quadrant for Analytics Platforms*.
+2. Microsoft Documentation. *Power BI DAX Guide*.
+3. Tableau Help Center. *Working with Calculated Fields*.
