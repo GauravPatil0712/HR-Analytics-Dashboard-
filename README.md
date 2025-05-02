@@ -26,23 +26,43 @@
   |---------|-----------------------------------|---------------------------|  
   | Power BI| DAX formulas, Windows integration | Limited macOS support     |  
   | Tableau | Advanced visuals                  | High licensing cost       |  
-- **Citations:**  
-  - Gartner (2023). *Magic Quadrant for Analytics Platforms*.  
-  - Microsoft Docs. *Power BI DAX Guide*.  
 
----
 
 ### 3. Methodology (24/03/2025 – 05/04/2025)  
 - **Tools:** Power BI Desktop, Tableau Public, Excel.  
-- **System Design:**  
-  ```plaintext
-  [Data Source (CSV)] → [Power BI/Tableau Processing] → [Dashboard Output]
-## Dataset:
-This dataset is taken from Kaggle.
 
-## Dashboard:
-1. Power Bi:
+### 4. Implementation Details (07/04/2025 – 26/04/2025)  
+
+#### **Module 1: Power BI Dashboard**  
+- **Description:**  
+  - Created employee overview with KPI cards (Avg Salary, Attrition Rate).  
+  - Implemented DAX measures and department slicers.  
+- **Testing:**  
+  - Validated data accuracy using Excel cross-checks.  
+  - Optimized report load time (<5 secs).  
+- **Snapshot:**  
 <a href="https://github.com/GauravPatil0712/HR-Analytics-Dashboard-/blob/main/Power%20bi.PNG">PowerBi</a>
 
-2. Tableau:
+#### **Module 2: Tableau Attrition Analysis**  
+- **Description:**  
+  - Built calculated fields for attrition status (`IF [Status] = "Left" THEN 1 ELSE 0`).  
+  - Designed dual-axis charts for department-wise trends.  
+- **Testing:**  
+  - Verified filters with dummy data.  
+  - Checked mobile responsiveness.  
+- **Snapshot:**  
 <a href="https://github.com/GauravPatil0712/HR-Analytics-Dashboard-/blob/main/Tableau.PNG">Tableau</a>
+
+### 5. Results (28/04/2025 – 03/05/2025)  
+
+#### **Dataset Used**  
+- Source: `Employee.csv` (internal HR data, anonymized). 
+- Citation:  
+  ```plaintext
+  Dataset provided by [Company Name] under NDA.  
+  Format: CSV, 1000+ records, fields: ID, Name, Department, Salary.
+## Dashboard:
+
+
+
+2. Tableau:
